@@ -1,0 +1,1 @@
+<view class="movpic-look"><image class="movpic-pic" src="{{movPic}}" mode="widthFix" data-event-opts="{{[['longpress',[['controller',['$event']]]]]}}" bindlongpress="__e"></image></view>

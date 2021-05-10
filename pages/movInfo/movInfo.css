@@ -1,0 +1,116 @@
+.movInfo-mp4{
+	width: 100%;
+	height: 400upx;
+	position: relative;
+}
+.movInfo-video{
+	height: 100%;
+	width: 100%;
+}
+.movInfo{
+	width: 100%;
+	height: 420upx;
+	position: relative;
+	display: flex;
+	/* background-color: #FFFFFF; */
+	/* border-bottom: #cecece dashed 2px; */
+}
+.movInfo-pic{
+	position: relative;
+	height: 420upx;
+	width: 300upx;
+	padding: 20upx 40upx;
+}
+.movInfo-img{
+	position: relative;
+	width: 220upx;
+	height: 300upx;
+	margin: auto;
+}
+.movInfo-mess{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20upx;
+}
+.movInfo-title{
+	font-size: 22px;
+	font-weight: bold;
+}
+.movInfo-introduction{
+	font-size: 14px;
+}
+.movInfo-score{
+	width: 380upx;
+	height: 120upx;
+	background-color: #FFFFFF;
+	border-radius: 10upx;
+	margin-top: 20upx;
+	display: flex;
+	/* 添加阴影效果 */
+	box-shadow: 3px 3px 10px #555555;
+}
+.score-num{
+	font-size: 16px;
+	margin-left: 10upx;
+}
+.socre-star{
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 10upx;
+}
+.socre-good{
+	display: flex;
+	padding-top: 30upx;
+}
+.movInfo-detail{
+	width: 100%;
+	height: 400upx;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	padding: 10upx;
+}
+.detail-title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.detail-text{
+	height: 350upx;
+}
+.mov-people{
+	height: 400upx;
+	margin-top: 10upx;
+}
+.people-title{
+	height: 50upx;
+	line-height: 50upx;
+	font-weight: bold;
+	font-size: 20px;
+}
+.people-scroll{
+	display: flex;
+}
+.people{
+	height: 350upx;
+	display: flex;
+	flex-direction: column;
+}
+.people-pic{
+	height: 300upx;
+	width: 240upx;
+	padding: 20upx 10upx;
+	padding-bottom: 6upx;
+}
+.people-img{
+	height: 260upx;
+	width: 220upx;
+}
+.people-name{
+	height: 50upx;
+	line-height: 50upx;
+	font-size: 16px;
+	font-weight: bold;
+}

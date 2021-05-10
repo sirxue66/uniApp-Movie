@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "scores": "/components/scores",
+    "lines": "/components/lines"
+  }
+}

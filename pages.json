@@ -1,0 +1,122 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// 隐藏原生导航栏
+				// "navigationStyle":"custom"   //方法一
+			// 	"app-plus":{                     //方法二
+			// 		"titleNView":false
+			// 	}
+			// 开启单页面下拉刷新
+			"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/myPage/myPage",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+        ,{
+            "path" : "pages/movInfo/movInfo",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"type":"transparent"  ,// 设置导航栏渐变显示
+						"buttons": [
+							{"type":"share"}
+						]
+					}
+				}
+			}
+            
+        }
+        ,{
+            "path" : "pages/movPic/movPic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预览",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/registLogin/registLogin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/photoPage/photoPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "上传图片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/editMeInfo/editMeInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "电影预告片",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#000000"
+	},
+	"tabBar":{
+		"color":"#808080",
+		"selectedColor":"#333333",
+		"backgroundColor":"#808080",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/home01.png"
+			},
+			{
+				"pagePath":"pages/search/search",
+				"text":"搜索",
+				"iconPath":"static/search.png",
+				"selectedIconPath":"static/search01.png"
+			},
+			{
+				"pagePath":"pages/myPage/myPage",
+				"text":"我的",
+				"iconPath":"static/me.png",
+				"selectedIconPath":"static/me01.png"
+			}
+		]
+	}
+}

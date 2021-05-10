@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "scores": "/components/scores",
+    "foot": "/components/foot"
+  }
+}
