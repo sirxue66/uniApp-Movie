@@ -1,0 +1,9 @@
+
+.line-swarp{
+	padding: 0rpx 20rpx;
+}
+.line{
+	height: 1px;
+	background-color: #c6c6c6;
+}
+

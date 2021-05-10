@@ -1,0 +1,49 @@
+.my-header{
+	position: relative;
+	width: 100%;
+	height: 300rpx;
+	background-image: url(data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCABtAS0DASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAECAwQFB//EAC4QAAICAAQEBQQBBQAAAAAAAAABAhEDITFBUWFxgQQSIpGhMrHB0VITQmLw8f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APmwBQGVAAFAJ2IsTQFRiv8AdjRRZlFuLy7m8JKXJ8GA0i0gXQYBmUKtBkGmH/d2LJw19XY0AklpmggMXGzNpo6WiXEDnKjr7lSw/wCOpKTTzyAruAUx+UBBTLpDpARQszQlgZMavLkEkNAbQxq+r3Wvc2TTVpqjkHFyi7i2mB19wMo4yaSllzWndGuT00ALaFYxAIXcYqATJpliyWrS6tL7geQALUpWUKgpFUDQE0IrQTASGJbjA2hi7S9/2bZbacjjLhiShppumB1cAJjKMlafXiiiDXD0kaGeHo+pYDAA0ABUx+Ym7AHXPsTSexVBQEjHQUAgAAEJlEsDNhwCQIBgAAIqM5Q09tiQA6Y4sZVfpb46dmWcZSx/6VW1X8Xr2A6WTOcIJeZ1930Ryy8XKdrDXkXF5y/Rg7d223xbf5A6J+JbygvL/lLN+2hztuTuTbb3ebAVAZKu5RBSlxKKGGugASJjZLAFuMS3GADEMATaaadM6IYqllLJ7PZnOJyStLMD04aPqVaR5+F4icMn6ocNGujOyE4TXmi018rqiC7YgABgIAKWgElAACQwDITVDEAiGWyQM5fkAl+QAYCFKcY6vPgtQKJlKEV6nnwWpjLGk/p9K+TJv5A0ljSeUfSvkyvd/IAUFlqS0fvsQAGt7hZnGTVrYvJ6AYgAAUnRVquZmNAUxMd8RMBLcYluDaQDQNpEtsQDbb1EAANFxnKDTi2paJr8kIfADtw/ERnUZVGW3CXQ3o8zLgbYWPOFRlcobLddGQdwExnCauLtfK6jABiABgIYCGIYAS0xkTxIRyu3wQEtakOcI6vss2RPFm7S9K5a+5l93rzAuWNJ5R9K+TJ/9BqgABABQAAAAAAAAABIAADWo2JDAQDyEAra2EOhAAAAAMQwBalErUoADMBkDjKUGpRbT975NHZheIjOlL0y+G+pxAB6bA4sPHlClL1RVdV0OyMozVxdrkAwAzljQS9PqfLJLuBot8jOWLCN52+WxhLEnLV0uCyIA0li4kuS5ZfJkMQCYhskBvMlooQCEOgKEAxAAAAALMYASAFAIYDAQihAIWRTEBIDoQDAAAFqUStSwEMAIAA01FfAB7DjiSg/NFtNfPUhsAN3iyxPqfbYexgilJrmvsBoAZNJrugAAAAIe4imSAwAAEJlCKEIoVAIB0x1oBI6GkVQGbQka0S0iCRgBQCKyFxIEJooKKFRLRdBSIIoCgpAT+yya1KYAK2hAwC9RFUgpAKgoYAAxi3AE64lqa399iQQGgERbTS2NKzYEPcktr7k1mAAOgoBAOhAKgGFAIaa0+QoKAqt9hkJs1oD/9k=);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.my-pic{
+	height: 180rpx;
+	width: 180rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	position: relative;
+	margin-left: 40rpx;
+}
+.my-info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-left: 20rpx;
+}
+.my-name{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
+}
+.my-id{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.my-set{
+	position: absolute;
+	top: 40rpx;
+	right: 40rpx;
+	height: 60rpx;
+	width: 60rpx;
+}
+

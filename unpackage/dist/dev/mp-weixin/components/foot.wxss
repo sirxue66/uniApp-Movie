@@ -1,0 +1,16 @@
+
+.page-footer{
+	height: 160rpx;
+	width: 100%;
+	background-color: #dadada;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.footer-text{
+	height: 80rpx;
+	width: 100%;
+	line-height: 80rpx;
+	text-align: center;
+	color: #eb909c;
+}
+

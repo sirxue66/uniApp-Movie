@@ -1,0 +1,65 @@
+.my-header{
+	position: relative;
+	width: 100%;
+	height: 300upx;
+	background-image: url(../../static/userPic.png);
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+}
+.my-pic{
+	height: 180upx;
+	width: 180upx;
+	border-radius: 50%;
+	position: relative;
+	margin-left: 40upx;
+}
+.my-info{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20upx;
+}
+.my-name{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
+}
+.my-id{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.my-set{
+	position: absolute;
+	top: 40upx;
+	right: 40upx;
+	height: 60upx;
+	width: 60upx;
+}
+.recommended{
+	width: 100%;
+	height: 50%;
+}
+.movName{
+	width: 100%;
+	height: 80rpx;
+	background-color: #FEFEFE;
+	line-height: 80rpx;
+	text-align: center;
+}
+.qyPic{
+	height: 100%;
+	width: 100%;
+	background-image: url(../../static/qy.png);
+	background-size: cover;
+}
+.myself{
+	width: 100%;
+	height: 200rpx;
+	margin-top: 20rpx;
+}
+.weibo{
+	word-break: keep-all;
+	word-wrap: break-word;
+	white-space: pre-line;
+}
